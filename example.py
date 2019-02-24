@@ -10,17 +10,17 @@ from src.follow_protocol import follow_protocol
 from src.unfollow_protocol import unfollow_protocol
 
 bot = InstaBot(
-    login="username",  # Enter username (lowercase). Do not enter email!
-    password="password",
-    like_per_day=1000,
-    comments_per_day=0,
-    tag_list=["follow4follow", "f4f", "cute", "l:212999109"],
-    tag_blacklist=["rain", "thunderstorm"],
+    login="pubghop3",  # Enter username (lowercase). Do not enter email!
+    password="gaurav9004933",
+    like_per_day=5000,
+    comments_per_day=500,
+    tag_list=["pubg", "pubgmobile", "pubgmemes", "pubgmeme"],
+    tag_blacklist=["", ""],
     user_blacklist={},
-    max_like_for_one_tag=50,
-    follow_per_day=300,
+    max_like_for_one_tag=1250,
+    follow_per_day=0,
     follow_time=1 * 60 * 60,
-    unfollow_per_day=300,
+    unfollow_per_day=0,
     unlike_per_day=0,
     unfollow_recent_feed=True,  # If True, the bot will also unfollow people who dont follow you using the recent feed. Default: True
     time_till_unlike=3 * 24 * 60 * 60,  # 3 days
