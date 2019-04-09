@@ -10,14 +10,14 @@ from src.follow_protocol import follow_protocol
 from src.unfollow_protocol import unfollow_protocol
 
 bot = InstaBot(
-    login="pubghop3",  # Enter username (lowercase). Do not enter email!
-    password="gaurav9004933",
-    like_per_day=2400,
+    login="stock.ninja",  # Enter username (lowercase). Do not enter email!
+    password="gaurav90049",
+    like_per_day=1800,
     comments_per_day=500,
-    tag_list=["pubg", "pubgmobile", "pubgmemes", "pubgmeme"],
+    tag_list=["stocks", "investment", "investor", "marketing"],
     tag_blacklist=["", ""],
     user_blacklist={},
-    max_like_for_one_tag=600,
+    max_like_for_one_tag=450,
     follow_per_day=0,
     follow_time=1 * 60 * 60,
     unfollow_per_day=0,
