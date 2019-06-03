@@ -12,12 +12,12 @@ from src.unfollow_protocol import unfollow_protocol
 bot = InstaBot(
     login="stock.ninja",  # Enter username (lowercase). Do not enter email!
     password="gaurav900493",
-    like_per_day=1800,
+    like_per_day=2400,
     comments_per_day=240,
     tag_list=["stocks", "investment", "investor", "marketing"],
     tag_blacklist=["", ""],
     user_blacklist={},
-    max_like_for_one_tag=450,
+    max_like_for_one_tag=600,
     follow_per_day=0,
     follow_time=1 * 60 * 60,
     unfollow_per_day=0,
